@@ -15,9 +15,10 @@
   position: relative;
   z-index: 11;
   background-color: #fff;
-  border: var(--modal-border);
+  border: rgb(9,21,64);
   border-radius: .25rem;
-  color: var(--txt);
+  color: rgb(9,21,64);
+    height: 80vh;
 }
 
 .closeWrapper {

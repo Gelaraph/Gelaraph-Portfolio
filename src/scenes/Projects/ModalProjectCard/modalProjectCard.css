@@ -11,7 +11,7 @@
 .image {
   display: block;
   max-width: 38rem;
-  min-height: 10rem;
+  /* min-height: 10rem; */
 }
 
 .cardBody {
@@ -24,7 +24,9 @@
   margin-top: 1rem;
   display: flex;
   flex-direction: row;
-  gap: 3em;
+}
+.cardFooter a:hover{
+  color: rgb(240,93,35);
 }
  .cardFooter a:first-child {
     margin-right: 2rem;

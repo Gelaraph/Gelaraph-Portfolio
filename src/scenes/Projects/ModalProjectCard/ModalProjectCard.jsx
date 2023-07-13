@@ -27,6 +27,7 @@ const ModalProjectCard = () => {
           src={image.src}
           effect="blur"
           width="100%"
+          height="270px"
           wrapperClassName="image"
           placeholderSrc={image.placeholderSrc}
         />
@@ -42,24 +43,24 @@ const ModalProjectCard = () => {
         </div>
 
         <div className="cardFooter">
-          <Button
+          <a
             style={{ width: '12rem' }}
             className="primary"
             href={links.site}
             target="_blank"
-          >
+            rel="noreferrer">
             <BiLinkExternal /> &nbsp; View project
-          </Button>
+          </a>
 
           {!!links.repo && (
-            <Button
+            <a
               style={{ width: '12rem' }}
               className="primary"
               href={links.repo}
               target="_blank"
-            >
+              rel="noreferrer">
               <BiLinkExternal /> &nbsp; Know more
-            </Button>
+            </a>
           )}
         </div>
       </div>

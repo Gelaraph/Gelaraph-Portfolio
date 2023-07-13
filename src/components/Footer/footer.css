@@ -45,9 +45,11 @@
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   list-style: none;
-  padding: 0
+  padding: 0;
+    color: #fff
 }
 
-.socialIcons {
-  color: #fff
+
+.socialIcons a:hover{
+  color: rgb(240,93,35);
 }
