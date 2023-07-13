@@ -18,7 +18,7 @@ const MainSection = () => {
 
             <p>
               Highly experienced in designing & developing fully
-              responsive and scalable products with greate user
+              responsive and scalable products with great user
               experience.
             </p>
             <div className="hero-button">

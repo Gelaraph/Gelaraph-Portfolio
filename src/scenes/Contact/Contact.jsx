@@ -162,10 +162,14 @@ const Contact = () => {
   return (
     <BaseLayout>
       <div className="contact-container">
-        <div className="">
+        <div className="contact-title-container">
           <h1 className="contact-title">
             Have a question or want to work together?
           </h1>
+          <p>
+            Fill in your info in the form below and I look forward to
+            hearing from you!
+          </p>
         </div>
 
         <div className="form-container">

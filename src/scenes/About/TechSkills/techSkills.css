@@ -1,7 +1,20 @@
-.teckskillsContainer {
+
+.teckskillsContainer-header{
+    text-align: center;
+    margin-bottom: 1.5em;
+      color: rgb(9,21,64);
+}
+.teckskillsContainer-header h2{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.teckskillsContainer-list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+    color: rgb(9,21,64);
 }
 
 .techIcon {

@@ -5,7 +5,7 @@
   width: 100%;
   background-attachment: scroll;
   padding: 3.9px 45px;
-  background-color: var(--bg-footer);
+  background-color: rgb(9,21,64);
 }
 
 .footerContainer {
@@ -17,12 +17,12 @@
 }
 .footerContainer h1 {
     font-size: 1rem;
-    color: var(--txt);
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
   }
 
 .copyright {
+  color: #fff;
   flex: 1;
   text-align: center;
 }
@@ -35,7 +35,7 @@
 .body li {
   padding: .2rem 1rem;
   font-size: 1.2rem;
-  color: var(--txt);
+  color: #fff;
   cursor: pointer;
 }
 
@@ -49,5 +49,5 @@
 }
 
 .socialIcons {
-  color: var(--txt)
+  color: #fff
 }

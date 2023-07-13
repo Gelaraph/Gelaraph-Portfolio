@@ -40,10 +40,11 @@
   padding: 1.25rem 0;
 }
 
-.title {
+.cardBody .title {
   margin-bottom: .75rem;
   font-size: 1.25rem;
   text-align: center;
+  font-weight: 500;
 }
 
 .description {

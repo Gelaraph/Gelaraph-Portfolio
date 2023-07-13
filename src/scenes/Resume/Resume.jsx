@@ -46,7 +46,7 @@ const Resume = () => {
 
   return (
     <BaseLayout>
-      <div className="content">
+      <div className="resume-content">
         <div className="resume-header">
           <h1 className="title">
             My <br /> Resume

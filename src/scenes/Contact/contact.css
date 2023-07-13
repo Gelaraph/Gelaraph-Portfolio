@@ -1,10 +1,11 @@
 .contact-container{
 padding: 9rem 9rem 3rem;
 margin-bottom: 3em;
+  color: rgb(9,21,64);
 }
 
 textarea, .contact-input{
-    border-color: #E6ECF8;
+    border: 1.5px solid grey;
     color: #141c3a;
     box-shadow: none;
     border-radius: 4px;
@@ -23,7 +24,6 @@ textarea{
     min-width: 100%;
     padding: calc(0.75em - 1px);
     resize: vertical;
-    border: 2px solid grey;
 }
 .textarea-cont{
     width: 100%;
@@ -57,7 +57,12 @@ textarea{
 .contact-container div:first-child .contact-title{
     text-align: center;
      font-size: 2em;
+     margin-bottom: 0.3em;
+}
+
+.contact-title-container{
      margin-bottom: 2em;
+     text-align: center;
 }
 .invalid-feedback{
     color: red;
@@ -66,7 +71,7 @@ textarea{
 }
 
 input:focus, textarea:focus {
-  border-color: orange;
+  border-color:rgb(9,21,64);;
 }
 
 @media(max-width: 767px) {
@@ -76,5 +81,11 @@ input:focus, textarea:focus {
     }
     .contact-input-container > div{
     width: 100%
+}
+}
+@media(max-width: 670px) {
+.contact-container{
+    padding-left: 3rem;
+     padding-right: 3rem;
 }
 }

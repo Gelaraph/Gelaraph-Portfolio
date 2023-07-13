@@ -5,7 +5,7 @@ import { FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="FooterContainer">
+      <div className="footerContainer">
         <div className="copyright">
           <h1>Angela Raphael ©2023</h1>
         </div>
@@ -17,8 +17,7 @@ const Footer = () => {
                 href="https://github.com/gelaraph"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="github"
-              >
+                aria-label="github">
                 <AiFillGithub />
               </a>
             </li>
@@ -27,8 +26,7 @@ const Footer = () => {
                 href="https://www.facebook.com/Gelaraph"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="facebook"
-              >
+                aria-label="facebook">
                 <FaFacebookF />
               </a>
             </li>
@@ -37,8 +35,7 @@ const Footer = () => {
                 href="https://twitter.com/gelaraph"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="twitter"
-              >
+                aria-label="twitter">
                 <FaTwitter />
               </a>
             </li>
@@ -48,8 +45,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/in/angelaraph"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="linkedin"
-              >
+                aria-label="linkedin">
                 <FaLinkedinIn />
               </a>
             </li>
