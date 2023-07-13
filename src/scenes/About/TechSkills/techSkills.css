@@ -1,0 +1,28 @@
+.teckskillsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.techIcon {
+  font-size: 4rem;
+  margin: 15px;
+  padding: 2rem 4rem;
+  opacity: 0.93;
+  border: 1.7px solid  rgb(9,21,64);
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 5px;
+  display: table;
+  box-shadow: 4px 1px 2px 1px rgb(240,93,35);
+  overflow: hidden;
+  transition: all 0.4s ease 0s;
+  line-height: 0;
+
+
+}
+  .techIcon:hover {
+    transform: scale(1.05);
+    overflow: hidden;
+    border: 2px solid rgb(240,93,35);
+  }

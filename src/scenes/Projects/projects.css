@@ -1,0 +1,36 @@
+.project-content {
+  padding: 9rem 9rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(9,21,64);
+}
+
+.project-title {
+  font-size: 3rem;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.subtitle {
+  margin-top: .5rem;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 10px
+}
+
+.orange {
+  color: rgb(240,93,35);
+}
+
+@media (max-width: 925px) {
+  .project-content {
+    padding: 9rem 3rem 1rem;
+  }
+}

@@ -1,0 +1,80 @@
+.contact-container{
+padding: 9rem 9rem 3rem;
+margin-bottom: 3em;
+}
+
+textarea, .contact-input{
+    border-color: #E6ECF8;
+    color: #141c3a;
+    box-shadow: none;
+    border-radius: 4px;
+    line-height: 1.5;
+    outline: none;
+    margin-top: 0.5em;
+    transition: 150ms ease;
+    font-size: 1rem;
+}
+.contact-input{width: 100%; padding: 0.7em;  height: 40px;}
+
+textarea{
+   height: 200px;
+    display: block;
+    max-width: 100%;
+    min-width: 100%;
+    padding: calc(0.75em - 1px);
+    resize: vertical;
+    border: 2px solid grey;
+}
+.textarea-cont{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+.contact-input-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    gap: 2em;
+}
+.contact-container label{ 
+    font-weight: 400;
+    font-family: "eurostile", sans-serif;
+    font-size: 1.2rem;
+    color: rgba(41, 51, 71, 0.65);
+}
+
+.contact-input-container > div{
+    width: 50%
+}
+.contact-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+.contact-container div:first-child .contact-title{
+    text-align: center;
+     font-size: 2em;
+     margin-bottom: 2em;
+}
+.invalid-feedback{
+    color: red;
+    font-size: 12px;
+    margin-top: 0.3em;
+}
+
+input:focus, textarea:focus {
+  border-color: orange;
+}
+
+@media(max-width: 767px) {
+    .contact-input-container{
+        flex-direction: column;
+        row-gap: 2em;
+    }
+    .contact-input-container > div{
+    width: 100%
+}
+}
