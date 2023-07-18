@@ -65,6 +65,25 @@ const data = [
     ],
   },
   {
+    id: '4',
+    title: 'RGB Guessing Game',
+    description:
+      'A colour guessing game built with vanilla JavaScript. The user basically look at the RGB colour value combinations at the top and picks a tile that would best describe the intensity of the RGB colour value mixture.',
+    image: {
+      src: 'https://res.cloudinary.com/diltki62s/image/upload/v1689667361/rgbGameApp_cfhb8l.png',
+    },
+    links: {
+      site: 'https://afro-fem-rgb-game-project.vercel.app/',
+      repo: 'https://github.com/Gelaraph/Afro-Fem-RGB-Game-Project',
+    },
+    technologies: [
+      '#javascript',
+      '#dom-eventlisteners',
+      '#array-methods',
+      '#css',
+    ],
+  },
+  {
     id: '5',
     title: 'Udemy Clone',
     description:
@@ -85,16 +104,77 @@ const data = [
     ],
   },
   {
+    id: '6',
+    title: 'JavaScript Stopwatch',
+    description:
+      'A simple countdown timer using JavaScript with a Start, Pause and Reset functionality.',
+    image: {
+      src: 'https://res.cloudinary.com/diltki62s/image/upload/v1689667360/stopWatchApp_qolwqu.png',
+    },
+    links: {
+      site: 'https://java-script-stopwatch.vercel.app/',
+      repo: 'https://github.com/Gelaraph/JavaScript-Stopwatch',
+    },
+    technologies: ['#javascript', '#dom-eventlisteners', '#css'],
+  },
+  {
     id: '7',
     title: 'Netflix Clone',
     description:
-      'A Netflix clone web application for streaming movies from all over the world. Uses React, Javascript and styled-components',
+      'A Netflix clone web application for streaming movies from all over the world. Uses React and styled-components',
     image: {
       src: 'https://res.cloudinary.com/diltki62s/image/upload/v1689195665/netflix_rvvevj.png',
     },
     links: {
       site: 'https://tranquil-longma-c34b06.netlify.app/',
       repo: 'https://github.com/Gelaraph/Netflix-Clone',
+    },
+    technologies: ['#react', '#html', '#css', '#styled-component'],
+  },
+  {
+    id: '8',
+    title: 'JavaScript To-do App',
+    description:
+      'A to-do list making app implemented using JavaScript. The app is used to maintain day-to-day tasks and it has a Add, Read, update and delete tasks functionality.',
+    image: {
+      src: 'https://res.cloudinary.com/diltki62s/image/upload/v1689667360/todoApp_viay6j.png',
+    },
+    links: {
+      site: 'https://java-script-to-do-list-three.vercel.app/',
+      repo: 'https://github.com/Gelaraph/JavaScript-To-do-List',
+    },
+    technologies: ['#javascript', '#dom-eventlisteners', '#css'],
+  },
+  {
+    id: '8',
+    title: 'JavaScript To-do App',
+    description:
+      'A fully functional geolocation-based weather app that provides the user with the current weather data of interested or searched locations. It details information including temperature, wind speed and sky conditions.',
+    image: {
+      src: 'https://res.cloudinary.com/diltki62s/image/upload/v1689667361/weatherApp_khdd93.png',
+    },
+    links: {
+      site: 'https://java-script-weather-app-mu.vercel.app/',
+      repo: 'https://github.com/Gelaraph/JavaScript-weather-app',
+    },
+    technologies: [
+      '#javascript',
+      '#dom-eventlisteners',
+      '#css',
+      '#openweather-Api',
+    ],
+  },
+  {
+    id: '5',
+    title: 'Udemy Clone',
+    description:
+      'A simple quiz app to learn the basics of React.js. The application starts with questions at first and then scores are displayed at the end.',
+    image: {
+      src: 'https://res.cloudinary.com/diltki62s/image/upload/v1689667361/quizApp_wpbnxh.png',
+    },
+    links: {
+      site: 'https://quiz-app-one-sigma.vercel.app/',
+      repo: 'https://github.com/Gelaraph/quiz-App',
     },
     technologies: [
       '#react',
