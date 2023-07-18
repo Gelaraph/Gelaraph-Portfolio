@@ -147,7 +147,7 @@ const data = [
   },
   {
     id: '8',
-    title: 'JavaScript To-do App',
+    title: 'JavaScript Weather App',
     description:
       'A fully functional geolocation-based weather app that provides the user with the current weather data of interested or searched locations. It details information including temperature, wind speed and sky conditions.',
     image: {
@@ -165,8 +165,8 @@ const data = [
     ],
   },
   {
-    id: '5',
-    title: 'Udemy Clone',
+    id: '9',
+    title: 'React Quiz App',
     description:
       'A simple quiz app to learn the basics of React.js. The application starts with questions at first and then scores are displayed at the end.',
     image: {
